@@ -10,7 +10,7 @@ for i = 1:N
     %show original rgb reference image
     subplot(3,3,1);
     imshow(curr_img);
-    caption = sprintf('Original image. Image %d of %d.',i,N-1);
+    caption = sprintf('Original image. Image %d of %d.',i,N);
     title(caption,'FontSize',10); 
     drawnow;
     
@@ -31,7 +31,7 @@ for i = 1:N
 
     subplot(3,3,3);
     imshow(lab);
-     caption = sprintf('Lab image. Image %d of %d.',i,N-1);
+     caption = sprintf('Lab image. Image %d of %d.',i,N);
     title(caption,'FontSize',10);
     drawnow;
 
